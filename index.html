@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - exercício 1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Atendimento on-line</h1>
+        </div>
+        <div class="content">
+            <div class="msg-component">
+                <div class="msg-user">Atendente diz:</div>
+                <div class="msg-content">Boa tarde!</div>
+            </div>
+            <div class="msg-component msg-you">
+                <div class="msg-user">Você diz:</div>
+                <div class="msg-content">Boa tarde!</div>
+            </div>
+        </div>
+        <div class="footer">
+            <form class="form-send" action="index.html" method="post">
+                <input type="text" class="message-text" name="message-text" placeholder="Digite aqui..." id="msg-input">
+                <button type="submit" class="btn-submit">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
